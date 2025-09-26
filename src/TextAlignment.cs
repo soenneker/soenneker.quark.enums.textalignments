@@ -1,6 +1,6 @@
 using Intellenum;
 
-namespace Soenneker.Quark;
+namespace Soenneker.Quark.Enums;
 
 /// <summary>
 /// Common html text alignments in enumeration form.
