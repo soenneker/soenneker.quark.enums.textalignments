@@ -1,7 +1,7 @@
 ﻿using Intellenum;
 using Soenneker.Quark.Enums.GlobalKeywords;
 
-namespace Soenneker.Quark.Enums.TextAlignments;
+namespace Soenneker.Quark;
 
 /// <summary>
 /// Common html text alignments in enumeration form.
