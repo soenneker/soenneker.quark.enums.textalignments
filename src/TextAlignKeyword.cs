@@ -1,11 +1,11 @@
-using Intellenum;
+using Soenneker.Gen.EnumValues;
 
 namespace Soenneker.Quark.Enums;
 
 /// <summary>
 /// Common html text alignments in enumeration form.
 /// </summary>
-[Intellenum<string>]
+[EnumValue<string>]
 public sealed partial class TextAlignKeyword
 {
     public static readonly TextAlignKeyword Left = new("left");
