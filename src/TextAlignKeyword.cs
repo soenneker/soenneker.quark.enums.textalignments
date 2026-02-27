@@ -6,6 +6,7 @@ namespace Soenneker.Quark.Enums;
 /// Common html text alignments in enumeration form.
 /// </summary>
 [EnumValue<string>]
+[IncludeEnumValues(typeof(GlobalKeyword))]
 public sealed partial class TextAlignKeyword
 {
     public static readonly TextAlignKeyword Left = new("left");
@@ -15,6 +16,4 @@ public sealed partial class TextAlignKeyword
     public static readonly TextAlignKeyword Start = new("start");
     public static readonly TextAlignKeyword End = new("end");
     public static readonly TextAlignKeyword MatchParent = new("match-parent");
-
-    public static implicit operator TextAlignKeyword(GlobalKeyword style) => new(style.Value); // Value is the underlying string
 }
