@@ -3,12 +3,16 @@
 [![](https://img.shields.io/nuget/dt/soenneker.quark.enums.textalignments.svg?style=for-the-badge)](https://www.nuget.org/packages/soenneker.quark.enums.textalignments/)
 [![](https://img.shields.io/github/actions/workflow/status/soenneker/soenneker.quark.enums.textalignments/codeql.yml?label=CodeQL&style=for-the-badge)](https://github.com/soenneker/soenneker.quark.enums.textalignments/actions/workflows/codeql.yml)
 
+# Soenneker.Quark.Enums.TextAlignments
 
-# ![](https://user-images.githubusercontent.com/4441470/224455560-91ed3ee7-f510-4041-a8d2-3fc093025112.png) Soenneker.Quark.Enums.TextAlignments
-### Common html text alignments in enumeration form.
+Represents the text alignment enum.
 
-## Installation
+## Install
 
-```
+```bash
 dotnet add package Soenneker.Quark.Enums.TextAlignments
 ```
+
+## What you get
+
+- `TextAlignmentEnum` — Represents the text alignment enum.
