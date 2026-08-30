@@ -3,33 +3,33 @@ using Soenneker.Gen.EnumValues;
 namespace Soenneker.Quark;
 
 /// <summary>
-/// Represents the text alignment enum.
+/// Represents a Tailwind text-alignment utility class.
 /// </summary>
 [EnumValue<string>]
 public sealed partial class TextAlignmentEnum
 {
     /// <summary>
-    /// The left.
+    /// Aligns text to the physical left edge.
     /// </summary>
     public static readonly TextAlignmentEnum Left = new("text-left");
     /// <summary>
-    /// The start.
+    /// Aligns text to the logical start edge.
     /// </summary>
     public static readonly TextAlignmentEnum Start = new("text-start");
     /// <summary>
-    /// The center.
+    /// Centers text.
     /// </summary>
     public static readonly TextAlignmentEnum Center = new("text-center");
     /// <summary>
-    /// The end.
+    /// Aligns text to the logical end edge.
     /// </summary>
     public static readonly TextAlignmentEnum End = new("text-end");
     /// <summary>
-    /// The right.
+    /// Aligns text to the physical right edge.
     /// </summary>
     public static readonly TextAlignmentEnum Right = new("text-right");
     /// <summary>
-    /// The justify.
+    /// Justifies text.
     /// </summary>
     public static readonly TextAlignmentEnum Justify = new("text-justify");
 }
